@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#allPro{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.allPro{
+    width: 21%;
+    height: 50vh;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.allPro_img{
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+}
+.allPro_img>img{
+    width: 100%;
+    height: 100%;
+}
+.allPro_text{
+    width: 80%;
+   
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+}

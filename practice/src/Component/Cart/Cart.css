@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cart_body{
+    width: 100%;
+    height: 1000px;
+    background-color: lightgray;
+}
+#cart{
+    width: 90%;
+    display: flex;
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+#cart_left{
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+#cart_right{
+    width:30%;
+    
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    background-color: white;
+}
+.cart_pro{
+    width: 90%;
+    height: 50vh;
+    background-color: white;
+    /* border: 2px solid black; */
+    box-shadow: 2px 5px lightgray;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+   
+}
+.cart_pro>i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.cart_img{
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    /* border: 1px solid red; */
+
+}
+.cart_img>img{
+    width: 100%;
+    height: 100%;
+}
+.cart_text{
+    width: 60%;
+    height: 300px;
+    padding: 8px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.cart_text>h4{
+    color: lightgray;
+}
+.cart_text>h3:nth-child(3){
+    color: orange;
+}
+#cart_pro>div:hover{
+    cursor: pointer;
+    transition: 10ms;
+    transform: scale(1.1);
+}
+#rem_btn{
+    width: 30%;
+    height: 15%;
+    margin: auto;
+}
+#rem_btn>button{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* border-radius: 50px; */
+    color: white;
+    border: none;
+    outline: none;
+}
+#summary{
+    width: 95%;
+    /* border: 1px solid black; */
+     /* borderBottom: '1px solid green' */
+     margin: auto;
+     margin-bottom: 10px;
+}
+#cart_billing{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.billing_detail{
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn{
+    width: 90%;
+    height: 10%;
+    /* border: 1px solid green; */
+    /* display: flex; */
+    /* justify-content: space-around;
+     */
+     margin: auto;
+     align-items: center;
+}
+#price{
+    width: 50%;
+    height: 5vh;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+#btn>div:nth-child(2)>button{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: auto;
+    border: none;
+    outline: none;
+    /* border-radius: 50px; */
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+#checkout{
+    width: 40%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

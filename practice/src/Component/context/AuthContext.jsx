@@ -1,8 +1,10 @@
 import { createContext, useEffect, useReducer } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const AuthContext=createContext();
-
+// const redirect = useNavigate();
 const initialState={user:null};
+
 
 const reducer=(state,action)=>{
     switch(action.type){
@@ -17,8 +19,9 @@ const reducer=(state,action)=>{
 }
 
 export const AuthProvider=({children})=>{
-
+    
     const[state,dispatch]=useReducer(reducer,initialState);
+    // const route=useNavigate();
 
     function Login(userData){
         dispatch({
@@ -32,6 +35,7 @@ export const AuthProvider=({children})=>{
         dispatch({
             type:'LOGOUT'
         })
+        // redirect('/login')
     }
 
     useEffect(()=>{
